@@ -1,0 +1,83 @@
+.logo-nav {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 2%;
+	max-width: 100px;
+}
+
+.nav {
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.nav > .title {
+	font-size: 20px;
+}
+
+.info-comisiones {
+	margin-top: 10px;
+}
+
+.small-text {
+	font-size: 14px;
+	color: var(--davys-grey);
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+a[href] {
+	color: black;
+}
+
+.contacto {
+	line-height: 1;
+}
+
+.contacto > p {
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.contacto > span {
+	font-size: 12px;
+}
+
+.titulo {
+	text-transform: uppercase;
+	margin-top: 10px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 5px;
+}
+td, th {
+	padding: 5px;
+	text-transform: lowercase;
+}
+
+table {
+	margin-bottom: 1rem;
+	border-collapse: collapse;
+}
+
+table td, table th {
+	border: 1px solid var(--silver); 
+}
+
+table tr:first-child td, table th {
+	border-top: 0;
+}
+
+table tr td:first-child, table tr th:first-child {
+	border-left: 0;
+}
+
+table tr:last-child td {
+	border-bottom: 0;
+}
+
+table tr td:last-child, table tr th:last-child {
+	border-right: 0;
+}

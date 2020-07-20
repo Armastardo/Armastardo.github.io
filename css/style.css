@@ -13,6 +13,7 @@
 body {
 	font-family: 'Bitter', serif;
 	background-color: var(--cultured);
+	color: var(--jet);
 }
 
 .logo {
@@ -35,6 +36,8 @@ body {
 	max-width: 500px;
 	font-size: 25px;
 	padding: 8px;
-	color: var(--jet);
 }
 
+.k-icon {
+	width: 15px;
+}
