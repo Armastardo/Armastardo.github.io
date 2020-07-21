@@ -47,7 +47,7 @@ body {
 	padding: 5px;
 }
 
-.sn-icon:hover {
+.sn-icon, .sn-icon:hover {
 	text-decoration: none !important;
 }
 
