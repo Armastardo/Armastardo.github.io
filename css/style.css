@@ -46,3 +46,18 @@ body {
 	width: 25px;
 	padding: 5px;
 }
+
+.sn-icon:hover {
+	text-decoration: none !important;
+}
+
+.nav {
+	text-align: center;
+	display: block;
+	margin-top: 50px;
+}
+
+a[href] {
+	color: black;
+	text-decoration: underline;
+}
