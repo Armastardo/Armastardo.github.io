@@ -29,6 +29,8 @@ function submitForm() {
 }
 function formSuccess() {
     console.log("mensaje enviado")
+    document.getElementById("contact-form").reset();
+    document.getElementById("message-status").innerHTML = "Su mensaje se envió correctamente"
 }
 function formError() {
     console.log("error")
