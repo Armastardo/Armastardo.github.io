@@ -9,12 +9,127 @@
 	--cultured: #f1f0ef;
 }
 
+.btn-primary {
+	background-color: var(--davys-grey);
+	color: var(--cultured);
+	border-color: var(--spanish-gray);
+}
+
+.btn-primary:hover {
+	color: var(--davys-grey);
+	background-color: var(--cultured);
+	border-color: var(--spanish-gray);
+	
+}
+
+.btn-primary:not(:disabled):not(.disabled):active{
+	color: var(--cultured);
+	background-color: var(--jet);
+	border-color: var(--spanish-gray);
+	
+}
+
+.form-control:focus {
+	border-color: var(--spanish-gray);
+	box-shadow: 0 0 0 0.2rem var(--silver);
+}
 
 body {
 	font-family: 'Bitter', serif;
 	background-color: var(--cultured);
 	color: var(--jet);
 }
+
+/* navegación */
+
+.logo-nav {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 2%;
+	max-width: 100px;
+}
+
+nav{
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+nav> .title {
+	font-size: 20px;
+}
+
+.navbar-toggler {
+	margin-bottom: 20px;
+}
+
+
+@media (min-width: 768px) {
+	.sidenav {
+		position: fixed;
+	}
+		
+	nav{
+		margin-top: 50px;
+	}
+
+	nav> .title {
+		font-size: 18px;
+	}
+}
+@media (min-width: 992px) {
+	nav> .title {
+		font-size: 20px;
+	}
+
+	.sidenav {
+		max-width: 190px;
+	}
+}
+
+.enlaces {
+	line-height: 1;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.enlaces > .title {
+	font-size: 16px;
+}
+
+.enlaces > .title, .enlaces > .social-media {
+	margin-top: 25px;
+}
+
+.enlaces > p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contacto > span {
+	font-size: 12px;
+}
+
+.sn-icon > img {
+	width: 25px;
+	padding: 5px;
+}
+
+.sn-icon, .sn-icon:hover {
+	text-decoration: none !important;
+}
+
+/* Contenido */
+
+main {
+	margin-top: 10px;
+	text-align: justify;
+}
+
+/* placeholder home */
 
 .logo {
 	text-align: center;
@@ -42,22 +157,8 @@ body {
 	width: 15px;
 }
 
-.sn-icon > img {
-	width: 25px;
-	padding: 5px;
-}
-
-.sn-icon, .sn-icon:hover {
-	text-decoration: none !important;
-}
-
-.nav {
-	text-align: center;
-	display: block;
-	margin-top: 50px;
-}
-
 a[href] {
 	color: black;
 	text-decoration: underline;
 }
+
