@@ -138,11 +138,18 @@ main {
 .logo > img {
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 10px;
 	width: 90%;
-	max-width: 180px;
-	padding: 2%;
+	max-width: 100px;
 	display: block;
 }
+
+@media (max-width: 425px) {
+	.logo > img {
+		padding: 2%;
+	}
+}
+
 
 .subtitle {
 	text-align: center;
